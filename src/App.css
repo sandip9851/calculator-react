@@ -1,38 +1,40 @@
-.mainContainer{
+.mainContainer {
   display: flex;
   flex-direction: column;
   margin: auto;
-  
+
   width: 30vw;
   height: 55vh;
   border-radius: 1.5rem;
   box-shadow:
-    0 -10px 20px -10px rgba(0, 0, 255, 0.5),  
-    10px 0 20px -10px rgba(0, 0, 255, 0.5),   
-    -10px 0 20px -10px rgba(0, 0, 255, 0.5),  
-    0 10px 20px -10px rgba(255, 0, 0, 0.5); 
+    0 -10px 20px -10px rgba(0, 0, 255, 0.5),
+    10px 0 20px -10px rgba(0, 0, 255, 0.5),
+    -10px 0 20px -10px rgba(0, 0, 255, 0.5),
+    0 10px 20px -10px rgba(255, 0, 0, 0.5);
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
-.inputContainer{
+.inputContainer {
   display: flex;
   flex-direction: column;
 }
 
-.inputContainer input{
+.inputContainer input {
   margin: 10px;
   height: 1.5rem;
   font-weight: 900;
 }
 
-.buttonConatainer{
+.buttonConatainer {
   margin: 5px;
   display: flex;
   justify-content: center;
 }
-.buttonConatainer button{
+
+.buttonConatainer button {
   margin: 10px;
   width: 2rem;
   height: 2rem;
@@ -41,20 +43,23 @@ h1{
   background-color: black;
   color: white;
 }
-.errorComponent{
+
+.errorComponent {
   text-align: center;
 }
-.errorComponent h3{
+
+.errorComponent h3 {
   color: red;
 
 }
-.outputContainer{
+
+.outputContainer {
   text-align: center;
 }
 
 
 
 
-#sc{
+#sc {
   color: aqua;
 }
